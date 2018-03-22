@@ -10,8 +10,12 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.WindowHeight = 16;
-            Console.WindowWidth = 32;
+            int xPos = 35;
+            int yPos = 20;
+
+            Console.SetCursorPosition(xPos, yPos);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine((char)2);
         }
     }
 }
